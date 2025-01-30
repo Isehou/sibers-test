@@ -1,0 +1,58 @@
+body {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+}
+
+th {
+  border-radius: 70px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid white;
+}
+
+th {
+  background-color: #fbc400;
+  color: black;
+}
+
+td a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+td a:hover {
+  color: #fbc400;
+}
+tr:hover {
+  background-color: #ddd;
+}
+
+.home-panel__admin-block {
+  width: 100%;
+}
+.login-form {
+  display: flex;
+}
+.login-panel-btn {
+  width: 100%;
+}

@@ -1,0 +1,144 @@
+* {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  background: grey;
+  padding: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.sibers-test-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.wrapper {
+  width: 900px;
+  height: 660px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+.home-panel {
+  margin-left: 15px;
+  width: 460px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.panel-btn {
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background: #000;
+  color: #fff;
+  width: 80%;
+  height: 50px;
+  border-radius: 70px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.panel-btn:hover {
+  background: #fbc400;
+  color: #000;
+  transition: 0.3s ease-out;
+}
+
+.image-block {
+  padding: 15px;
+  width: 460px;
+  height: 640px;
+  border-radius: 20px;
+}
+
+.add-user__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.add-user__wrapper {
+  width: 900px;
+  height: 660px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  box-sizing: border-box;
+}
+.form-wrapper {
+  width: 900px;
+  height: 660px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.form {
+  width: 85%;
+}
+label {
+  font-size: 12px;
+  width: 100%;
+  height: 15px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+input {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  border-radius: 30px;
+  background: #f1f1f1;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.add-user-btn {
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background: #000;
+  color: #fff;
+  width: 100%;
+
+  height: 50px;
+  border-radius: 70px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.add-user-btn:hover {
+  background: #fbc400;
+  color: #000;
+  transition: 0.3s ease-out;
+}
+
+select {
+  background: white;
+  width: 100%;
+  height: 40px;
+  border-radius: 30px;
+  outline: none;
+  background: #f1f1f1;
+  border: 0;
+  cursor: pointer;
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
