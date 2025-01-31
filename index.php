@@ -32,7 +32,7 @@ if (!isset($_SESSION['admin'])) {
                         <button class="panel-btn" onclick="window.location.href='login.php'">Admin panel</button>
                     </div>
                     <div class="register-part control-part">
-                        <button class="panel-btn" onclick="window.location.href='register_new_user.php'">User Registration panel</button>
+                        <button class="panel-btn" onclick="window.location.href='add_user.php'">User Registration panel</button>
                     </div>
                 </div>
             </div>

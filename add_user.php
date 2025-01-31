@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <div class="add-user__block">
     <div class="add-user__wrapper">
         <div class="form-wrapper">
-            <form class="form" action="register_new_user.php" method="post">
+            <form class="form" action="add_user.php" method="post">
                 <label>Login</label>
                 <input type="text" name="login" id="login" placeholder="Yourname@login" required>
 
